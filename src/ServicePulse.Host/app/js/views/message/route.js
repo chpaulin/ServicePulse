@@ -7,9 +7,6 @@
         $routeProvider.when('/message/:messageId', {
             redirectTo: '/failed-messages/message/:messageId'
         }).when('/failed-messages/message/:messageId', {
-            data: {
-                pageTitle: 'Message'
-            },
             templateUrl: 'js/views/message/messages-view.html',
             controller: 'messagesController',
             controllerAs: 'vm',

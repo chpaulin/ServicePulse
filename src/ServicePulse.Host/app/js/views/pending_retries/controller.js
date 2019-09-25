@@ -20,6 +20,7 @@
 
         var notifier = notifyService();
 
+        window.document.title = "Pending Retries • ServicePulse";
         vm.sortButtonText = '';
         vm.sortDirection = 'asc';
         vm.allMessagesLoaded = false;

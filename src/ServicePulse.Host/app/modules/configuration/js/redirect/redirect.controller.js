@@ -9,6 +9,7 @@
         var notifier = notifyService();
         var vm = this;
        
+        window.document.title = "Retry redirects - Configuration • ServicePulse";
         vm.loadingData = false;
         vm.redirects = [];
 

@@ -3,9 +3,6 @@
 
     function routeProvider($routeProvider) {
         $routeProvider.when('/about', {
-            data: {
-                pageTitle: 'About'
-            },
             templateUrl: 'js/views/about/view.html',
             controller: 'aboutController',
             controllerAs: 'vm'

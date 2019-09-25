@@ -18,6 +18,7 @@
         var vm = this;
         var notifier = notifyService();
         
+        window.document.title = "Failed Messages • ServicePulse";
         vm.selectedExceptionGroup = { 'id': $routeParams.groupId ? $routeParams.groupId : undefined, 'title': 'All Failed Messages', 'count': 0, 'initialLoad': true };
         vm.selectedExceptionGroup.parentTitle = $routeParams.parentGroupId;
         vm.selectedExceptionGroup.parentGroupIndex = $routeParams.parentGroupIndex;

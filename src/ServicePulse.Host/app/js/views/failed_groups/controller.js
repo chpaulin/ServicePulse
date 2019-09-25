@@ -28,6 +28,7 @@
         var vm = this;
         var notifier = notifyService();
 
+        window.document.title = "Failed Groups • ServicePulse";
         serviceControlService.performingDataLoadInitially = true;
        
         vm.loadingData = false;

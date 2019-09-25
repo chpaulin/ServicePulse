@@ -14,6 +14,7 @@
         notifyService
     ) {
         var notifier = notifyService();
+        window.document.title = "Monitored endpoints - Configuration • ServicePulse";
         $scope.model = { endpoints: [] };
 
         function autoGetEndPoints() {

@@ -5,9 +5,6 @@
         $routeProvider.when('/archived', {
             redirectTo: '/failed-messages/archived'
         }).when('/failed-messages/archived', {
-            data: {
-                pageTitle: 'Archived Messages'
-            },
             templateUrl: 'js/views/archive/view.html',
             controller: 'archivedMessageController',
             controllerAs: 'vm'

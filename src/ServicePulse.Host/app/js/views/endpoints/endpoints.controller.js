@@ -10,7 +10,7 @@
 
         var timeoutId;
 
- 
+        window.document.title = "Endpoints • ServicePulse";
         $scope.model = { active: [], inactive: [] };
 
         $scope.$on('$destroy', function() {

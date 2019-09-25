@@ -1,6 +1,7 @@
 (function (window, angular, $) {
     'use strict';
 
+
     angular.module('sc', [
         'ngRoute',
         'ngAnimate',

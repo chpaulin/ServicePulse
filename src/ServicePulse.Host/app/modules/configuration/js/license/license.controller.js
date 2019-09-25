@@ -10,6 +10,7 @@
         var notifier = notifyService();
         var vm = this;
 
+        window.document.title = "License - Configuration • ServicePulse";
         vm.loadingData = true;
 
         vm.mapLicenseToVm = (license) => {

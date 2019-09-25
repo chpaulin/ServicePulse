@@ -19,6 +19,7 @@
         var vm = this;
         var notifier = notifyService();
 
+        window.document.title = "Archived Messages • ServicePulse";
         vm.selectedIds = [];
         vm.multiselection = {};
 

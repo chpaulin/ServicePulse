@@ -17,6 +17,7 @@
         messageTypeParser
     ) {
 
+        window.document.title = "Endpoint details • ServicePulse";
         $scope.endpointName = $routeParams.endpointName;
         $scope.showInstancesBreakdown = $routeParams.tab === 'instancesBreakdown'; 
         $scope.loading = true;

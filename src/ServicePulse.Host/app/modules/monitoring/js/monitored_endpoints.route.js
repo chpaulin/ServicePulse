@@ -5,9 +5,6 @@
         let template = require('./../views/monitored_endpoints.html');
 
         $routeProvider.when('/monitoring', {
-            data: {
-                pageTitle: 'Monitored Endpoints'
-            },
             template: template,
             controller: 'monitoredEndpointsCtrl',
             controllerAs: 'vm',

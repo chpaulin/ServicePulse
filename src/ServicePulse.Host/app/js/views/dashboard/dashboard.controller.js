@@ -9,6 +9,7 @@
         sharedDataService
 		) {
 
+        window.document.title = "Dashboard • ServicePulse";
         var notifier = notifyService();
         $scope.model = sharedDataService.getstats();
 

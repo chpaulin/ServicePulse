@@ -12,6 +12,7 @@
         var vm = this;
         var notifier = notifyService();
 
+        window.document.title = "Connections - Configuration • ServicePulse";
         var initialServiceControlUrl = connectionsManager.getServiceControlUrl();
         var initialMonitoringUrl = connectionsManager.getMonitoringUrl();
         var isMonitoringEnabled = connectionsManager.getIsMonitoringEnabled();

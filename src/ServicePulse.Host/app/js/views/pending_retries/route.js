@@ -5,9 +5,6 @@
         $routeProvider.when('/pendingRetries', {
             redirectTo: '/failed-messages/pending-retries'
         }).when('/failed-messages/pending-retries', {
-            data: {
-                pageTitle: 'Pending Retries'
-            },
             templateUrl: 'js/views/pending_retries/view.html',
             controller: 'pendingRetriesController',
             controllerAs: 'vm'

@@ -7,9 +7,6 @@
         $routeProvider.when('/connections', {
             redirectTo: "/configuration/connections"
         }).when('/configuration/connections', {
-            data: {
-                pageTitle: 'Connections - Configuration'
-            },
             template: template,
             controller: 'connectionsController',
             controllerAs: 'vm'

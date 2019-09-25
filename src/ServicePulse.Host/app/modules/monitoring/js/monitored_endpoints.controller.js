@@ -15,6 +15,7 @@
 
         var subscription, endpointsFromScSubscription;
 
+        window.document.title = "Monitored endpoints • ServicePulse";
         $scope.periods = historyPeriodsService.getAllPeriods();
         $scope.selectedPeriod = historyPeriodsService.getDefaultPeriod();
         $scope.smallGraphsMinimumYAxis = smallGraphsMinimumYAxis;

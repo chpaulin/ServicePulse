@@ -8,7 +8,6 @@
                 redirectTo: "/configuration/license"
             }).when('/configuration/endpoints', {
                 data: {
-                    pageTitle: 'Monitored endpoints - Configuration',
                     redirectWhenNotConnected: '/configuration/connections'
                 },
                 template: template,

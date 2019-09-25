@@ -7,6 +7,7 @@
         serviceControlService,
         notifyService) {
 
+        window.document.title = "Custom Checks • ServicePulse";
         $scope.model = { data: [], total: 0 };
         $scope.loadingData = false;
         $scope.disableLoadingData = false;

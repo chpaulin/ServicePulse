@@ -10,6 +10,7 @@
         var notifier = notifyService();
         var environment = sharedDataService.getenvironment();
 
+        window.document.title = "About • ServicePulse";
         vm.sp_version = environment.sp_version;
         vm.sc_version = environment.sc_version;
         vm.is_compatible_with_sc = environment.is_compatible_with_sc;

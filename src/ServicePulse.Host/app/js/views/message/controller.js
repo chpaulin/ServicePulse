@@ -19,6 +19,7 @@
         var vm = this;
         var notifier = notifyService();
 
+        window.document.title = "Message • ServicePulse";
         vm.message = {};
 
         var init = function () {
