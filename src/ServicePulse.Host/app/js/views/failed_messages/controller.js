@@ -11,7 +11,8 @@
         sharedDataService,
         notifyService,
         serviceControlService,
-        failedMessageGroupsService) {
+        failedMessageGroupsService,
+        breadcrumbsService) {
 
         serviceControlService.performingDataLoadInitially = true;
 
@@ -25,6 +26,7 @@
         if (!vm.selectedExceptionGroup.hasOwnProperty('title')) {
             $location.path('/failed-messages/groups');
         }
+
 
         var selectActions = {
             Selection: { },
@@ -267,7 +269,8 @@
         'sharedDataService',
         'notifyService',
         'serviceControlService',
-        'failedMessageGroupsService'
+        'failedMessageGroupsService',
+        'breadcrumbsService'
     ];
 
     angular.module('sc')
